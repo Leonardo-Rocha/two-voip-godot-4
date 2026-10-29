@@ -94,6 +94,7 @@ jobs:
   linux-gdextension:
     name: 🐧 Linux
     runs-on: ubuntu-22.04
+    container: registry.gitlab.steamos.cloud/steamrt/steamrt4/sdk:4.0.20260805.254769@sha256:2ff6220464894964266c7dbda1b91ca24e433a58ad3edff26571a2a9e5163e00
 
     strategy:
       fail-fast: false
